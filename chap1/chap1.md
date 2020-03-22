@@ -20,7 +20,7 @@
    
    a.添加第二块Host-Only网卡
    
-   ![添加HOST-ONLY网卡](/img/0.PNG)
+   ![添加HOST-ONLY网卡](https://github.com/CUCCS/linux-2020-NewDividedc/blob/chap1/chap1/img/0.PNG)
    
 
    b.修改\etc\netplan\01-nctcfg.yaml
