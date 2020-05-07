@@ -1,6 +1,6 @@
 # 第四章：shell脚本编程基础（实验）
 
-##环境
+## 环境
 
 * Virtualbox
 
@@ -67,7 +67,7 @@
 
   * 安装成功
 
-    ![imagemagick安装成功](/task1image/imagemagick安装成功.png)
+    ![imagemagick安装成功](task1image/imagemagick安装成功.png)
 
   * 编写代码 [task1.sh](https://github.com/CUCCS/linux-2020-NewDividedc/blob/chap0x04/chap0x04/code/task1.sh)
   
@@ -75,7 +75,7 @@
   
   * 支持对指定目录下所有支持格式的图片文件进行批处理
   
-    ![帮助文档](/task1image/帮助文档.png)
+    ![帮助文档](../task1image/帮助文档.png)
 
   * 支持对jpeg格式图片进行图片质量压缩
     
