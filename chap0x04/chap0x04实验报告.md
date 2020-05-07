@@ -67,7 +67,7 @@
 
   * 安装成功
 
-    ![imagemagick安装成功](task1image/imagemagick安装成功.png)
+    ![imagemagick安装成功](task1image/imagemagick安装成功.PNG)
 
   * 编写代码 [task1.sh](https://github.com/CUCCS/linux-2020-NewDividedc/blob/chap0x04/chap0x04/code/task1.sh)
   
