@@ -131,11 +131,11 @@
   
       ![使用psftp获得上水印后的图片](task1image/使用psftp获得上水印后的图片.PNG)
 
-    * 加上水印前后图片比较
+    * 加上水印前后图片比较 ([加水印前图片1](task1image/lake.jpg) [加水印后图片1](task1image/fill_lake.jpg) )
       
       ![加上水印前后图片比较](task1image/加上水印前后图片比较.PNG)
 
-    * 加上水印前后图片比较2
+    * 加上水印前后图片比较2 ([加水印前图片2](task1image/painting.png) [加水印后图片2](task1image/fill_painting.png) )
       
       ![加上水印前后图片比较2](task1image/加上水印前后图片比较2.PNG)
   
