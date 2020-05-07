@@ -67,7 +67,7 @@
 
   * 安装成功
 
-    ![imagemagick安装成功](\task1image\imagemagick安装成功.png)
+    ![imagemagick安装成功](/task1image/imagemagick安装成功.png)
 
   * 编写代码 [task1.sh](https://github.com/CUCCS/linux-2020-NewDividedc/blob/chap0x04/chap0x04/code/task1.sh)
   
@@ -75,109 +75,109 @@
   
   * 支持对指定目录下所有支持格式的图片文件进行批处理
   
-    ![帮助文档](\task1image\帮助文档.png)
+    ![帮助文档](/task1image/帮助文档.png)
 
   * 支持对jpeg格式图片进行图片质量压缩
     
     * 压缩前compress目录下图片
     
-      ![compress当前目录的照片](task1image\compress当前目录的照片.PNG)
+      ![compress当前目录的照片](/task1image/compress当前目录的照片.PNG)
 
     * 压缩图片命令
       
-      ![压缩命令](task1image\使用压缩命令.PNG)
+      ![压缩命令](/task1image/使用压缩命令.PNG)
 
     * 压缩后compress目录下照片
       
-      ![压缩后compress目录下照片](task1image\压缩后compress目录下的照片.PNG)
+      ![压缩后compress目录下照片](/task1image/压缩后compress目录下的照片.PNG)
 
     * 压缩前后图片大小比较
      
-      ![压缩前后图片大小比较](task1image\压缩后文件大小比较.PNG)
+      ![压缩前后图片大小比较](/task1image/压缩后文件大小比较.PNG)
   
   * 支持对jpeg/png/svg格式图片在保持原始宽高比的前提下压缩分辨率
     
     * 压缩分辨率前resize目录下的图片
    
-      ![压缩分辨率前resize目录下的图片](task1image\压缩分辨率前resize目录下文件.PNG)
+      ![压缩分辨率前resize目录下的图片](/task1image/压缩分辨率前resize目录下文件.PNG)
 
     * 压缩分辨率命令
 
-      ![压缩分辨率命令](task1image\压缩分辨率命令.PNG) 
+      ![压缩分辨率命令](/task1image/压缩分辨率命令.PNG) 
 
     * 压缩分辨率后resize目录下的图片
       
-      ![压缩分辨率后resize目录下的图片](task1image\压缩分辨率后resize目录下文件.PNG)
+      ![压缩分辨率后resize目录下的图片](/task1image/压缩分辨率后resize目录下文件.PNG)
 
     * 压缩分辨率后图片大小比较
   
-      ![压缩分辨率后图片比较](task1image\压缩分辨率后图片比较.PNG)
+      ![压缩分辨率后图片比较](/task1image/压缩分辨率后图片比较.PNG)
 
   * 支持对图片批量添加自定义文本水印
 
     * 添加水印前a目录下的图片
    
-      ![添加水印前a目录下图片](task1image\添加水印前a目录下图片.PNG)
+      ![添加水印前a目录下图片](/task1image/添加水印前a目录下图片.PNG)
 
     * 添加水印命令
 
-      ![添加水印命令](task1image\添加水印命令.PNG) 
+      ![添加水印命令](/task1image/添加水印命令.PNG) 
 
     * 添加水印后a目录下的图片
       
-      ![添加水印后a目录下图片](task1image\添加水印后a目录下图片.PNG)
+      ![添加水印后a目录下图片](/task1image/添加水印后a目录下图片.PNG)
 
     * 使用psftp获得上水印后的图片
   
-      ![使用psftp获得上水印后的图片](task1image\使用psftp获得上水印后的图片.PNG)
+      ![使用psftp获得上水印后的图片](/task1image/使用psftp获得上水印后的图片.PNG)
 
     * 加上水印前后图片比较
       
-      ![加上水印前后图片比较](task1image\加上水印前后图片比较.PNG)
+      ![加上水印前后图片比较](/task1image/加上水印前后图片比较.PNG)
 
     * 加上水印前后图片比较2
       
-      ![加上水印前后图片比较2](task1image\加上水印前后图片比较2.PNG)
+      ![加上水印前后图片比较2](/task1image/加上水印前后图片比较2.PNG)
   
   * 支持批量重命名（统一添加文件名前缀或后缀，不影响原始文件扩展名）
     
     * 添加前缀名前prefix目录
    
-      ![添加前缀名前prefix目录](task1image\添加前缀前prefix目录.PNG)
+      ![添加前缀名前prefix目录](/task1image/添加前缀前prefix目录.PNG)
 
     * 添加前缀命令
 
-      ![添加前缀命令](task1image\添加前缀命令.PNG) 
+      ![添加前缀命令](/task1image/添加前缀命令.PNG) 
 
     * 添加前缀名后prefix目录
       
-      ![添加前缀名后prefix目录](task1image\添加前缀名后prefix目录.PNG)
+      ![添加前缀名后prefix目录](/task1image/添加前缀名后prefix目录.PNG)
 
     * 添加后缀名前suffix目录
    
-      ![添加后缀名前prefix目录](task1image\添加后缀名前suffix目录.PNG)
+      ![添加后缀名前prefix目录](/task1image/添加后缀名前suffix目录.PNG)
 
     * 添加后缀命令
 
-      ![添加缀后命令](task1image\添加后缀名命令.PNG) 
+      ![添加缀后命令](/task1image/添加后缀名命令.PNG) 
 
     * 添加后缀名后suffix目录
       
-      ![添加后缀名后suffix目录](task1image\添加后缀名后suffix目录.PNG)
+      ![添加后缀名后suffix目录](/task1image/添加后缀名后suffix目录.PNG)
 
   * 支持将png/svg图片统一转换为jpg格式图片
     
     * 转换图片格式前transform目录
    
-      ![转换图片格式前transform目录](task1image\转换图片格式前transform目录.PNG)
+      ![转换图片格式前transform目录](/task1image/转换图片格式前transform目录.PNG)
 
     * 转换图片格式命令
 
-      ![转换图片格式命令](task1image\转换图片格式命令.PNG) 
+      ![转换图片格式命令](/task1image/转换图片格式命令.PNG) 
 
     * 转换图片格式后transform目录
       
-      ![转换图片格式后transform目录](task1image\转换图片格式后transform目录.PNG)
+      ![转换图片格式后transform目录](/task1image/转换图片格式后transform目录.PNG)
 
 * 任务二
   
