@@ -31,7 +31,7 @@
 
    * 安装VeryNginx过程中出现错误
 
-   ![安装VeryNginx出现错误](\image\安装VeryNginx出现错误.PNG)
+   ![安装VeryNginx出现错误](image/安装VeryNginx出现错误.PNG)
 
    ```
    #需要安装zlib-devel
@@ -54,9 +54,9 @@
    sudo vim nginx.conf
    ```
 
-   ![修改VeryNginx配置文件中的用户名](\image\修改VeryNginx用户名.PNG)
+   ![修改VeryNginx配置文件中的用户名](image/修改VeryNginx用户名.PNG)
 
-   ![修改VeryNginx配置文件中的用户监听端口](\image\修改VeryNginx监听端口.PNG)
+   ![修改VeryNginx配置文件中的用户监听端口](image/修改VeryNginx监听端口.PNG)
 
    * 启动VeryNginx服务
  
@@ -77,7 +77,7 @@
    sudo vim /etc/nginx/sites-available/default
    ```
 
-   ![修改Nginx监听端口](\image\修改Nginx监听端口.PNG)
+   ![修改Nginx监听端口](image/修改Nginx监听端口.PNG)
 
    * 启动Nginx服务
   
@@ -87,11 +87,11 @@
 
    * 访问VeryNginx和Nginx成功
   
-   ![访问80端口](\image\访问80端口成功.PNG)
+   ![访问80端口](image/访问80端口成功.PNG)
 
-   ![访问VeryNginx成功](\image\访问VeryNginx成功.PNG)
+   ![访问VeryNginx成功](image/访问VeryNginx成功.PNG)
 
-   ![访问nginx成功](\image\访问nginx成功.PNG)
+   ![访问nginx成功](image/访问nginx成功.PNG)
 
    * PHP-FPM进程的反向代理配置在nginx服务器上
    
@@ -171,7 +171,7 @@
    
    * 将生成内容复制到/var/www/html/wordpress/wp-config.php，并修改数据库相关数据
    
-   ![修改wp-config.php文件](\image\修改wp-config.php文件.PNG)
+   ![修改wp-config.php文件](image/修改wp-config.php文件.PNG)
 
    * 修改nginx配置文件
 
@@ -283,21 +283,21 @@
 
    * 访问dvwa成功
    
-   ![访问dvwa成功](\image\访问dvwa成功.PNG)
+   ![访问dvwa成功](image/访问dvwa成功.PNG)
 
    * 配置域名为http://dvwa.sec.cuc.edu.cn
    
-   ![dvwa使用域名访问成功](\image\dvwa使用域名访问成功.PNG)
+   ![dvwa使用域名访问成功](image/dvwa使用域名访问成功.PNG)
    
-   ![dvwa登陆成功](\image\dvwa登陆成功.PNG)
+   ![dvwa登陆成功](image/dvwa登陆成功.PNG)
 
 * VeryNginx作为本次实验的Web App的反向代理服务器和WAF
    
    * 在verynginx中配置matcher、upstream和proxy pass
    
-   ![在verynginx中配置matcher](\image\在verynginx中配置matcher.PNG)
+   ![在verynginx中配置matcher](image/在verynginx中配置matcher.PNG)
 
-   ![verynginx配置upstream和proxyPass](\image\verynginx配置upstream和proxyPass.PNG)
+   ![verynginx配置upstream和proxyPass](image/verynginx配置upstream和proxyPass.PNG)
 
 * 安全加固要求
     
@@ -305,72 +305,72 @@
       
       * 添加matcher 
 
-      ![使用ip无法访问—修改matcher](\image\使用ip无法访问—修改matcher.PNG)
+      ![使用ip无法访问—修改matcher](image/使用ip无法访问—修改matcher.PNG)
 
       * 添加response
 
-      ![使用ip无法访问—添加response](\image\使用ip无法访问—添加response.PNG) 
+      ![使用ip无法访问—添加response](image/使用ip无法访问—添加response.PNG) 
 
       * 添加filter
       
-      ![使用ip无法访问—添加filter](\image\使用ip无法访问—添加filter.PNG)  
+      ![使用ip无法访问—添加filter](image/使用ip无法访问—添加filter.PNG)  
 
       * 使用ip无法访问
       
-      ![使用ip无法访问](\image\使用ip无法访问.PNG)  
+      ![使用ip无法访问](image/使用ip无法访问.PNG)  
 
    * Damn Vulnerable Web Application (DVWA)只允许白名单上的访客来源IP，其他来源的IP访问均向访客展示自定义的友好错误提示信息页面-2
       
       * 添加matcher
       
-      ![dvwa白名单添加matcher](\image\dvwa白名单添加matcher.PNG)
+      ![dvwa白名单添加matcher](image/dvwa白名单添加matcher.PNG)
 
       * 添加response
 
-      ![dvwa白名单添加response](\image\dvwa白名单添加response.PNG)
+      ![dvwa白名单添加response](image/dvwa白名单添加response.PNG)
 
       * 添加filter
 
-      ![dvwa白名单添加filter](\image\dvwa白名单添加filter.PNG)  
+      ![dvwa白名单添加filter](image/dvwa白名单添加filter.PNG)  
 
       * 在白名单中的ip访问成功
       
-      ![dvwa白名单访问成功](\image\dvwa白名单访问成功.PNG)
+      ![dvwa白名单访问成功](image/dvwa白名单访问成功.PNG)
 
       * 未在白名单中的ip地址访问失败
 
-      ![未在dvwa白名单访问失败](\image\未在dvwa白名单访问失败.PNG) 
+      ![未在dvwa白名单访问失败](image/未在dvwa白名单访问失败.PNG) 
    
    * 在不升级Wordpress版本的情况下，通过定制VeryNginx的访问控制策略规则，热修复WordPress < 4.7.1 - Username Enumeration
 
       *  添加matcher
-      ![NameEnumeration添加matcher](\image\NameEnumeration添加matcher.PNG)
+      ![NameEnumeration添加matcher](image/NameEnumeration添加matcher.PNG)
 
       * 添加filter
        
-      ![NameEnumeration添加filter](\image\NameEnumeration添加filter.PNG)
+      ![NameEnumeration添加filter](image/NameEnumeration添加filter.PNG)
 
       * 修改后访问失败，返回404
        
-      ![NameEnumeration修改后访问](\image\NameEnumeration修改后访问.PNG)  
+      ![NameEnumeration修改后访问](image/NameEnumeration修改后访问.PNG)  
 
    * 通过配置VeryNginx的Filter规则实现对Damn Vulnerable Web Application (DVWA)的SQL注入实验在低安全等级条件下进行防护 
    
       * 添加matcher
       
-      ![sql添加matcher](\image\sql添加matcher.PNG)    
+      ![sql添加matcher](image/sql添加matcher.PNG)    
 
       * 添加response
 
-      ![sql添加response](\image\sql添加response.PNG)
+      ![sql添加response](image/sql添加response.PNG)
 
       * 添加filter
 
-      ![sql添加filter](\image\sql添加filter.PNG)
+      ![sql添加filter](image/sql添加filter.PNG)
 
       * 测试结果 
       
-      ![sql访问失败](\image\sql访问失败.PNG)
+      ![sql访问失败](image/sql访问失败.PNG)
 
 * VeryNginx配置要求
 
@@ -378,23 +378,23 @@
 
       * 添加matcher
       
-      ![VeryNginx白名单添加matcher](\image\VeryNginx白名单添加matcher.PNG)
+      ![VeryNginx白名单添加matcher](image/VeryNginx白名单添加matcher.PNG)
 
       * 添加response
 
-      ![VeryNginx白名单添加response](\image\VeryNginx白名单添加response.PNG)
+      ![VeryNginx白名单添加response](image/VeryNginx白名单添加response.PNG)
 
       * 添加filter
 
-      ![VeryNginx白名单添加filter](\image\VeryNginx白名单添加filter.PNG)  
+      ![VeryNginx白名单添加filter](image/VeryNginx白名单添加filter.PNG)  
 
       * 在白名单中的ip访问成功
       
-      ![VeryNginx白名单访问成功](\image\VeryNginx白名单访问成功.PNG)
+      ![VeryNginx白名单访问成功](image/VeryNginx白名单访问成功.PNG)
 
       * 未在白名单中的ip地址访问失败
 
-      ![VeryNginx未在白名单访问失败](\image\未在VeryNginx白名单访问失败.PNG) 
+      ![VeryNginx未在白名单访问失败](image/未在VeryNginx白名单访问失败.PNG) 
 
    * 通过定制VeryNginx的访问控制策略规则实现：
       
@@ -406,35 +406,35 @@
       
          * 添加response
 
-         ![添加频率限制response](\image\添加频率限制response.PNG) 
+         ![添加频率限制response](image/添加频率限制response.PNG) 
 
          * 添加频率限制信息
 
-         ![添加频率限制](\image\添加频率限制.PNG) 
+         ![添加频率限制](image/添加频率限制.PNG) 
 
          * 访问结果
 
-         ![dvwa访问频率](\image\dvwa访问频率.PNG)
+         ![dvwa访问频率](image/dvwa访问频率.PNG)
 
-         ![wp访问频率](\image\wp访问频率.PNG)
+         ![wp访问频率](image/wp访问频率.PNG)
 
    * 禁止curl访问
    
       * 添加matcher
       
-      ![curl添加matcher](\image\curl添加matcher.PNG)
+      ![curl添加matcher](/image/curl添加matcher.PNG)
 
       * 添加response
       
-      ![curl添加response](\image\curl添加response.PNG)
+      ![curl添加response](image/curl添加response.PNG)
 
       * 添加filter
       
-      ![curl添加filter](\image\curl添加filter.PNG)
+      ![curl添加filter](image/curl添加filter.PNG)
 
       * curl结果
        
-      ![curl失败](\image\curl失败.PNG)
+      ![curl失败](image/curl失败.PNG)
 
 ## 参考资料
 
