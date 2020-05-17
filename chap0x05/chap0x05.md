@@ -195,7 +195,7 @@
 
    * wordpress使用域名访问成功
    
-   ![wordpress使用域名访问成功](\image\wordpress使用域名访问成功.PNG)
+   ![wordpress使用域名访问成功](image/wordpress使用域名访问成功.PNG)
 
 * 使用Damn Vulnerable Web Application (DVWA)搭建的站点对外提供访问的地址为： http://dvwa.sec.cuc.edu.cn
     
