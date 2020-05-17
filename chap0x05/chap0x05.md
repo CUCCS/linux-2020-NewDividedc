@@ -378,7 +378,7 @@
 
       * 添加matcher
       
-      ![VeryNginx白名单添加matcher](image/VeryNginx白名单添加matcher.PNG)
+      ![VeryNginx白名单添加matcher](image/verynginx白名单添加matcher.PNG)
 
       * 添加response
 
@@ -422,7 +422,7 @@
    
       * 添加matcher
       
-      ![curl添加matcher](/image/curl添加matcher.PNG)
+      ![curl添加matcher](image/curl添加matcher.PNG)
 
       * 添加response
       
