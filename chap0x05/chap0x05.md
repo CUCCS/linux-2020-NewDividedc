@@ -31,7 +31,7 @@
 
    * 安装VeryNginx过程中出现错误
 
-   ![安装VeryNginx出现错误](\image\安装VeryNginx出现错误.PNG)
+   ![安装VeryNginx出现错误](image\安装VeryNginx出现错误.PNG)
 
    ```
    #需要安装zlib-devel
