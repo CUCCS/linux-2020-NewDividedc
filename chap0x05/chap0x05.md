@@ -31,7 +31,7 @@
 
    * 安装VeryNginx过程中出现错误
 
-   ![安装VeryNginx出现错误](image\安装VeryNginx出现错误.PNG)
+   ![安装VeryNginx出现错误](\image\安装VeryNginx出现错误.PNG)
 
    ```
    #需要安装zlib-devel
@@ -440,12 +440,10 @@
 
 [Ubuntu Nginx ./configure: error: the HTTP gzip module requires the zlib library. You can either...](https://blog.csdn.net/the_wish/article/details/52057921)
 
-[How To Install WordPress with LEMP on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-with-lemp-on-ubuntu-18-04)
-
-[How To Install Linux, Nginx, MySQL, PHP (LEMP stack) on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-ubuntu-18-04)
-
 [linux-2019-Cassie8888](https://github.com/CUCCS/linux-2019-Cassie8888/blob/linux_05/linux05/实验五.md)
 
 [linux-2019-jackcily](https://github.com/CUCCS/linux-2019-jackcily/blob/job5/job5/实验5.md)
 
-[]()
+[How To Install WordPress with LEMP on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-with-lemp-on-ubuntu-18-04)
+
+[How To Install Linux, Nginx, MySQL, PHP (LEMP stack) on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-install-linux-nginx-mysql-php-lemp-stack-ubuntu-18-04)
