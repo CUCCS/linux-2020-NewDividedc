@@ -432,7 +432,7 @@
       
       ![curl添加filter](\image\curl添加filter.PNG)
 
-      * 结果
+      * curl结果
        
       ![curl失败](\image\curl失败.PNG)
 
