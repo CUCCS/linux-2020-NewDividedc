@@ -75,27 +75,27 @@
 
    * 远程登录目标主机后运行脚本文件
     
-     ![登录目标主机执行vsftpd脚本文件](/image/登录目标主机执行vsftpd脚本文件.PNG)
+     ![登录目标主机执行vsftpd脚本文件](image/登录目标主机执行vsftpd脚本文件.PNG)
 
    * 配置一个提供匿名访问的FTP服务器，匿名访问者可以访问1个目录且仅拥有该目录及其所有子目录的只读访问权限；
 
-      ![vsftpd匿名用户权限](\image\vsftpd匿名用户权限.PNG) 
+      ![vsftpd匿名用户权限](image/vsftpd匿名用户权限.PNG) 
    
    * 配置一个支持用户名和密码方式访问的账号，该账号继承匿名访问者所有权限，且拥有对另1个独立目录及其子目录完整读写（包括创建目录、修改文件、删除文件等）权限；
       
-      ![vsftpd用户访问](\image\vsftpd用户访问.PNG)
+      ![vsftpd用户访问](image/vsftpd用户访问.PNG)
 
       ![vsftpd用户创建删除文件](\image\vsftpd用户创建删除文件.PNG) 
    
    * FTP用户不能越权访问指定目录之外的任意其他目录和文件；
     
-      ![vsftpd用户不能越权访问](\image\vsftpd用户不能越权访问.PNG)
+      ![vsftpd用户不能越权访问](image/vsftpd用户不能越权访问.PNG)
 
    * 匿名访问权限仅限白名单IP来源用户访问，禁止白名单IP以外的访问；
       
       * 在/etc/hosts.allow文件中添加192.168.56.101
       
-      ![FTP非白名单用户不能访问](\image\FTP非白名单用户不能访问.PNG)
+      ![FTP非白名单用户不能访问](/image/FTP非白名单用户不能访问.PNG)
 
 * NFS
    
@@ -109,31 +109,31 @@
        
        * 将客户端脚本文件nfs_ser.sh传输到目的主机，并运行
        
-          ![nfs脚本文件传输](\image\nfs脚本文件传输.PNG)
+          ![nfs脚本文件传输](image/nfs脚本文件传输.PNG)
 
        * 挂载的对应只读访问和读写访问权限的共享文件夹（只读：/var/nfs/gen_r；读写：/var/nfs/gen_rw）
        
           * server端
           
-             ![nfs服务端目录](\image\nfs服务端目录.PNG)
+             ![nfs服务端目录](image/nfs服务端目录.PNG)
 
           * client端
           
-             ![nfs客户端目录](\image\nfs客户端目录.PNG) 
+             ![nfs客户端目录](image/nfs客户端目录.PNG) 
           
           * 权限对比
 
-             ![nfs两个目录权限比较](\image\nfs两个目录权限比较.PNG) 
+             ![nfs两个目录权限比较](image/nfs两个目录权限比较.PNG) 
    
    * 你通过NFS客户端在NFS共享目录中新建的目录、创建的文件的属主、权限信息
 
       * server端
           
-         ![nfs服务端新建文件权限](\image\nfs服务端新建文件权限.PNG)
+         ![nfs服务端新建文件权限](image/nfs服务端新建文件权限.PNG)
 
       * client端
           
-         ![nfs客户端新建文件权限](\image\nfs客户端新建文件权限.PNG) 
+         ![nfs客户端新建文件权限](image/nfs客户端新建文件权限.PNG) 
            
    
    * 上述共享目录中文件、子目录的属主、权限信息和在NFS服务器端上查看到的信息一样吗？无论是否一致，请给出你查到的资料是如何讲解NFS目录中的属主和属主组信息应该如何正确解读
@@ -150,23 +150,23 @@
 
    * 分别给服务端与客户端主机添加一块内部网卡
       
-      ![dhcp添加网卡](\image\dhcp添加网卡.PNG)
+      ![dhcp添加网卡](image/dhcp添加网卡.PNG)
        
    * 服务端（192.168.56.102）
    
       * 传输脚本文件到服务端并运行
       
-         ![dhcp脚本传输](\image\dhcp脚本传输.PNG)
+         ![dhcp脚本传输](image/dhcp脚本传输.PNG)
 
       * 运行后的客户端`/etc/netplan/01-netcfg.yaml`文件
 
-         ![dhcp客户端配置文件](\image\dhcp客户端配置文件.PNG)
+         ![dhcp客户端配置文件](image/dhcp客户端配置文件.PNG)
 
       * 修改后运行情况
 
-         ![dhcp服务端网卡情况](\image\dhcp服务端网卡情况.PNG) 
+         ![dhcp服务端网卡情况](image/dhcp服务端网卡情况.PNG) 
 
-         ![dhcp运行情况](\image\dhcp运行情况.PNG) 
+         ![dhcp运行情况](image/dhcp运行情况.PNG) 
 
    * 客户端（192.168.56.101）
    
@@ -182,7 +182,7 @@
          ```
       * 修改后运行情况
 
-         ![dhcp客户端网卡情况](\image\dhcp客户端网卡情况.PNG) 
+         ![dhcp客户端网卡情况](image/dhcp客户端网卡情况.PNG) 
 
 * Samba
    
@@ -200,41 +200,41 @@
    
       * 打开资源管理器，右键“此电脑”，选择“添加一个网络位置”,输入共享文件夹路径
 
-         ![samba添加网络位置向导](\image\samba添加网络位置向导.PNG) 
+         ![samba添加网络位置向导](image/samba添加网络位置向导.PNG) 
 
-         ![samba添加网络位置向导2](\image\samba添加网络位置向导2.PNG)
+         ![samba添加网络位置向导2](image/samba添加网络位置向导2.PNG)
 
       * 访问匿名目录，不用输入账号密码，且不可以创建文件夹
 
-         ![samba匿名用户访问文件夹](\image\samba匿名用户访问文件夹.PNG)  
+         ![samba匿名用户访问文件夹](image/samba匿名用户访问文件夹.PNG)  
    
       * 访问指定用户文件夹，需要输入账号密码，且可以创建文件夹
 
-         ![samba在windows上创建文件夹](\image\samba在windows上创建文件夹.PNG) 
+         ![samba在windows上创建文件夹](image/samba在windows上创建文件夹.PNG) 
 
     * 在Linux上连接Windows10上的服务器
       
       * 打开控制面板，进入“网络和共享中心”，点击左侧“更改高级共享设置”,开启网络发现和文件共享，保存更改
 
-         ![samba更改Windows10网络共享配置](\image\samba更改Windows10网络共享配置.PNG) 
+         ![samba更改Windows10网络共享配置](image/samba更改Windows10网络共享配置.PNG) 
       
       * 编辑要共享的文件夹D:smb_usr\，属性,点击高级共享; 勾选“共享此文件夹”，并点击权限；添加用户名，设置权限。账号密码登录共享目录`samba_usr`的用户为`kento` ，匿名登录共享目录`samba_anon`的用户为`everyone`
 
-         ![samba修改windows10特定用户权限](\image\samba修改windows10特定用户权限.PNG)
+         ![samba修改windows10特定用户权限](image/samba修改windows10特定用户权限.PNG)
 
-         ![samba修改windows10everyone用户权限](\image\samba修改windows10everyone用户权限.PNG) 
+         ![samba修改windows10everyone用户权限](image/samba修改windows10everyone用户权限.PNG) 
       
       * Linux访问Windows的匿名共享目录 (失败)
 
-         ![Linux访问Windows的匿名共享目录](\image\Linux访问Windows的匿名共享目录.PNG)
+         ![Linux访问Windows的匿名共享目录](image/Linux访问Windows的匿名共享目录.PNG)
 
       * Linux访问Windows的用户名密码方式共享目录
 
-         ![Linux访问Windows的用户名密码方式共享目录](\image\Linux访问Windows的用户名密码方式共享目录.PNG) 
+         ![Linux访问Windows的用户名密码方式共享目录](image/Linux访问Windows的用户名密码方式共享目录.PNG) 
 
       * 下载整个目录
 
-         ![samba下载](\image\samba下载.PNG)    
+         ![samba下载](image/samba下载.PNG)    
 
 * DNS
    
@@ -284,7 +284,7 @@
 
        * 编辑配置文件`/bind/zones/db.cuc.edu.cn`
 
-          ![dns编辑db配置文件](\image\dns编辑db配置文件.PNG) 
+          ![dns编辑db配置文件](image/dns编辑db配置文件.PNG) 
 
        * 重启bind9 `sudo service bind9 restart`
 
@@ -308,9 +308,9 @@
        
     * 测试结果
     
-       ![dns解析域名成功1](\image\dns解析域名成功1.PNG) 
+       ![dns解析域名成功1](image/dns解析域名成功1.PNG) 
        
-       ![dns解析域名成功2](\image\dns解析域名成功2.PNG)
+       ![dns解析域名成功2](image/dns解析域名成功2.PNG)
 
 ## 参考文献
 
