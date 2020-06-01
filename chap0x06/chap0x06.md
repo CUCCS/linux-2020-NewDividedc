@@ -59,7 +59,7 @@
      ``` 
    * 免密登录成功
 
-      ![ssh免密登录成功](image\ssh免密登录成功.PNG) 
+      ![ssh免密登录成功](image/ssh免密登录成功.PNG) 
 
 * FTP :vsftpd
    
