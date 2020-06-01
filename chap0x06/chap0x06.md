@@ -3,9 +3,9 @@
 ## 环境
 
 
-* Ubuntu 18.04 Server 64bit（工作主机：192.168.56.101）
+* Ubuntu 18.04 Server 64bit（工作主机：192.168.56.101 newdividedc@NewDividedc）
 
-* Ubuntu 18.04 Server 64bit（目标主机：192.168.56.102）
+* Ubuntu 18.04 Server 64bit（目标主机：192.168.56.102 root@kenken）
 
 ## 实验问题
 
@@ -85,7 +85,7 @@
       
       ![vsftpd用户访问](image/vsftpd用户访问.PNG)
 
-      ![vsftpd用户创建删除文件](\image\vsftpd用户创建删除文件.PNG) 
+      ![vsftpd用户创建删除文件](image/vsftpd用户创建删除文件.PNG) 
    
    * FTP用户不能越权访问指定目录之外的任意其他目录和文件；
     
@@ -95,7 +95,7 @@
       
       * 在/etc/hosts.allow文件中添加192.168.56.101
       
-      ![FTP非白名单用户不能访问](/image/FTP非白名单用户不能访问.PNG)
+      ![FTP非白名单用户不能访问](image/FTP非白名单用户不能访问.PNG)
 
 * NFS
    
